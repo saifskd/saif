@@ -1,0 +1,742 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* background-color: floralwhite; */
+    /* background-color: #fff;
+    box-shadow: 0px -2px 3px 4px gainsboro; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.3px);
+    -webkit-backdrop-filter: blur(11.3px);
+}
+
+.header_logo_image_div img {
+    height: 60px;
+    width: auto;
+}
+
+.header_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+.header_li a {
+    list-style: none;
+    color: rgb(32, 32, 32);
+    margin-right: 25px;
+    font-size: 16px;
+    transition: all .4s;
+}
+
+.header_li a:hover {
+    /* color: rgb(1, 134, 250); */
+    color: #ffcd06;
+}
+
+.header_call_icon {
+    padding: 4px 32px 0px 32px;
+    font-size: 20px;
+    border: 2px solid rgb(110, 185, 252);
+    border-radius: 10px;
+    transition: all .4s;
+    background-color: rgb(110, 185, 252);
+    color: #fff;
+
+}
+
+.header_call_icon:hover {
+    background-color: rgb(1, 134, 250);
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 480px;
+}
+
+.submenu {
+    padding: 20px 10px 20px 20px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.color_change {
+    color: #0285ff;
+}
+
+.mdsaif_div {
+    color: #595959;
+    font-size: 20px;
+    word-spacing: 5px;
+    transition: all.2s;
+}
+
+.mdsaif_div:hover {
+    color: #0285ff;
+    cursor: pointer;
+}
+
+.submenu_i {
+    color: #3d3d3d;
+    line-height: 50px;
+    word-spacing: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-style: bold;
+}
+
+
+
+.submenu p {
+    font-size: 18px;
+    line-height: 24px;
+    word-spacing: 10px;
+    margin-bottom: 15px;
+    color: #595959;
+}
+
+.menu_image_div {
+    margin: 10px;
+    padding: 5px 10px;
+    height: 475px;
+}
+
+.menu_image {
+    width: auto;
+    height: 500px;
+}
+
+.menu_button_div {
+    margin: 110px 5px 20px 20px;
+}
+
+.menu_button {
+    font-size: 21px;
+    padding: 8px 35px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #0285ff;
+    border-radius: 10px;
+    transition: all .4s;
+    color: #0285ff;
+}
+
+.menu_button:hover {
+    background-color: #0285ff;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+
+.scroler {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color: #595959;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+    box-shadow: 0px 6px 4px -4px gainsboro;
+}
+
+.scroler i {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/* ---------------------------man page-------------------------------- */
+
+.more_about {
+    font-size: 30px;
+    color: #3d3d3d;
+    margin: 80px 80px;
+}
+
+.more_about h2 i {
+    margin-left: 10px;
+    color: rgb(0, 255, 0);
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 320px;
+    width: 560px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    transition: all .2s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 0px gainsboro;
+
+}
+
+.card_image_icons {
+    font-size: 100px;
+    margin: 20px 40px 20px 20px;
+    color: green;
+    transition: all .2S;
+}
+
+.card_image_icons_two {
+    color: red;
+}
+
+.apple_laptop_image {
+    font-size: 100px;
+    margin: 20px 40px 20px 20px;
+    color: #fd5f03;
+    transition: all .2S;
+}
+
+.js_color {
+    color: yellow;
+}
+
+.card_dady {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 40px;
+}
+
+.css_color {
+    color: #0384fd;
+}
+
+.card_pera {
+    /* margin: 10px 20px 10px 50px; */
+    width: 600px;
+}
+
+.card_hading {
+    color: #3d3d3d;
+    font-size: 25px;
+    word-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.card_pera p {
+    font-size: 15px;
+    color: #595959;
+    line-height: 18px;
+    word-spacing: 5px;
+    margin: 20px 10px 30px 10px;
+}
+
+.card_button_div {
+    margin-left: 20px;
+    padding: 5;
+    margin-top: 30px;
+}
+
+.card_button {
+    font-size: 21px;
+    padding: 8px 35px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(1, 134, 250);
+    border-radius: 10px;
+    transition: all .4s;
+    color: rgb(1, 134, 250);
+}
+
+.card_button_two {
+    margin-top: 50px;
+}
+
+.card_button:hover {
+    background-color: rgb(1, 134, 250);
+    color: #fff;
+    cursor: pointer;
+}
+
+.websites_cards {
+    margin: auto;
+    display: flex;
+    margin: 10px 50px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 60px;
+
+}
+
+.websites_cards_menu {
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.websites_cards_menu:hover img {
+    box-shadow: 0px 0px 20px 0px gainsboro;
+    transform: translateY(-12px);
+
+}
+
+.websites_cards_menu img {
+    height: 240px;
+    width: 340px;
+    border-radius: 10px;
+    transition: all .2s;
+    margin-bottom: 20px;
+}
+
+.websites_cards_menu p {
+    line-height: 20px;
+    word-spacing: 5px;
+    color: #595959;
+    margin-top: 20px;
+    transition: all .2s;
+}
+
+.websites_cards_menu p:hover {
+    color: #141414;
+
+}
+
+.websites_cards_menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.websites_cards_menu ul li {
+    margin: 10px 15px;
+    transition: all .2s;
+    color: #68b3f8;
+}
+
+.websites_cards_menu ul li:hover {
+    color: #0285ff;
+
+}
+
+.visit_site_button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #0672ff;
+    border-radius: 5px;
+    transition: all .4s;
+    color: #0672ff;
+}
+
+.visit_site_button:hover {
+    background-color: #0672ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.long_card_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.long_card_image img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+.home_getstard_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.home_getstard_card_menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    height: 430px;
+    padding: 30px;
+    width: 360px;
+    margin: 10px;
+    transition: all .2s;
+}
+
+.home_getstard_card_menu:hover {
+    box-shadow: 0px 0px 40px 0px gainsboro;
+}
+
+.home_getstard_card_menu:hover i {
+    transform: scale(1.1);
+
+}
+
+.home_getstard_card_menu h4 {
+    color: #3002ff;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.home_getstard_card_menu p {
+    color: #595959;
+    line-height: 20px;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.get_stard {
+    color: #cab5fc;
+    transition: all .2s;
+    font-size: 18px;
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.get_stard:hover {
+    color: #5209fd;
+    cursor: pointer;
+}
+
+.get_stard_color {
+    color: #6e31fc;
+
+}
+
+.long_card_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ffde59;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 130px;
+    width: 80%;
+    margin: 50px auto 80px auto;
+    box-shadow: 0px 0px 20px 0px #ffde59;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.long_card_image:hover {
+    box-shadow: 0px 0px 20px 0px #fdd01d;
+
+}
+
+.long_card_image img {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    border: 8px solid #6de06d;
+    box-shadow: 0px 3px 10px 1px #6de06d;
+    margin: 0px 40px;
+}
+
+.long_card_image h2 {
+    font-size: 40px;
+    word-spacing: 8px;
+    border-bottom: 4px solid #6de06d;
+    border-left: 4px solid #6de06d;
+    padding: 0px 0px 0px 10px;
+    flex: 1;
+
+}
+
+.long_card_image_front {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 4px solid #6de06d;
+    border-right: 4px solid #6de06d;
+    flex: 1;
+
+}
+
+
+.wave-border {
+    height: 100px;
+    overflow: hidden;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffde59;
+    width: 100%;
+    height: 100px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.footer_icons {
+    text-decoration: none;
+    color: #3d3d3d;
+    transition: all .2s;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+.footer_icons:hover {
+    transform: scale(1.4);
+
+}
+
+.mygmail {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.mygmail h4 {
+    font-size: 30px;
+    color: #3d3d3d;
+}
+
+@media screen and (max-width: 450px) {
+    .header_li {
+        display: none;
+    }
+
+    header {
+        padding: 5px 20px;
+        height: 60px;
+    }
+
+    .header_call_icon {
+        display: block;
+        padding: 2px 16px 0px 16px;
+        font-size: 12px;
+    }
+
+
+    .header_logo_image_div img {
+        height: 30px;
+        width: auto;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        height: 680px;
+        flex-direction: column;
+    }
+
+    .submenu_i {
+        font-size: 25px;
+        line-height: 35px;
+        word-spacing: 5px;
+        margin-bottom: 20px;
+    }
+
+    .submenu {
+        padding: 10px;
+        margin: 10px 0px 10px 20px;
+    }
+
+    .submenu p {
+        font-size: 18px;
+        line-height: 20px;
+        word-spacing: 3px;
+        margin-bottom: 10px;
+        color: #595959;
+    }
+
+    .menu_button_div {
+        margin: 50px 5px 5px 0px;
+    }
+
+    .menu_image_div {
+        margin-top: -20px;
+    }
+
+    .menu_image {
+        width: auto;
+        height: 350px;
+    }
+
+    .more_about {
+        margin-left: 10px;
+        margin: 20px 10px;
+    }
+
+    .more_about h2 {
+        font-size: 18px !important;
+        margin-left: 20px;
+        margin-top: -50px 0px;
+    }
+
+    .long_card_image {
+        padding: 5px 10px;
+        height: 80px;
+        width: 95%;
+        margin: 30px auto 50px auto;
+    }
+
+
+    .long_card_image h2 {
+        font-size: 15px;
+        word-spacing: 0px;
+        border-bottom: 2px solid #ffde59;
+        border-left: 2px solid #ffde59;
+    }
+
+    .long_card_image img {
+        height: 100px;
+        width: auto;
+        border: 5px solid #fff;
+        margin: 0px 20px;
+    }
+
+    .long_card_image_front {
+        border-bottom: 2px solid #ffde59;
+        border-right: 2px solid #ffde59;
+        padding: 10px;
+    }
+
+    .long_card_image_front h4 {
+        font-size: 8px;
+        word-spacing: 0px;
+        line-height: 10px;
+
+    }
+
+    .long_card_image_front p {
+        font-size: 7px;
+        word-spacing: 0px;
+        line-height: 10px;
+    }
+
+    .card_dady {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .card {
+        height: 200px;
+        width: 340px;
+        margin: 0px auto 20px auto;
+        padding: 10px;
+    }
+
+    .card_image_icons {
+        font-size: 80px;
+        margin: 0px 20px 0px 0px;
+        color: rgb(92, 235, 92);
+    }
+
+    .card_pera {
+        margin-left: 20px;
+    }
+
+    .card_hading {
+        font-size: 20px;
+        word-spacing: 3px;
+        margin-bottom: 8px;
+    }
+
+    .card_pera p {
+        font-size: 8px;
+        color: #595959;
+        line-height: 10px;
+        word-spacing: 0px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .card_button {
+        font-size: 15px;
+        padding: 5px 20px;
+        background-color: transparent;
+        border: 1px solid rgb(1, 134, 250);
+    }
+
+    .card_button_two {
+        margin-top: 0px;
+    }
+
+    .websites_cards_menu img {
+        height: 140px;
+        width: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .websites_cards h2 {
+        font-size: 15px;
+    }
+
+    .websites_cards p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .visit_site_button {
+        margin-top: 5px;
+    }
+
+    .websites_cards_menu {
+        margin: 0px;
+        padding: 10px 18px;
+    }
+
+    .websites_cards {
+        margin: 10px 0px;
+    }
+
+    .websites_cards .slick-track {
+        margin-left: 4rem;
+    }
+
+    .home_getstard_card {
+        overflow: auto;
+    }
+
+    .home_getstard_card_menu {
+        height: 300px;
+        padding: 20px;
+        width: 250px;
+        margin: 10px;
+        border: 1px solid gainsboro;
+    }
+
+
+
+
+
+
+
+}
