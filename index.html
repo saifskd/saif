@@ -14,7 +14,9 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Saif Portfolio</title>
 </head>
 <!-- https://preview.colorlib.com/#seos -->
@@ -36,10 +38,22 @@
                 <li class="header_li"><a href="#">PROJECTS</a></li>
                 <li class="header_li"><a href="#">CONTACT</a></li>
                 <a href="tel:8463922319">
-                    <li class="header_call_icon"><ion-icon name="call-sharp"></ion-icon></li>
+                    <li class="header_call_icon"><ion-icon name="call-sharp"></ion-icon>
+                    </li>
                 </a>
             </ul>
         </div>
+
+
+        <details>
+            <ul class="header_ul_mobile">
+                <li class="header_li_mobile"><a href="#hvubh">HOME</a></li>
+                <li class="header_li_mobile"><a href="#">ABOUT</a></li>
+                <li class="header_li_mobile"><a href="#">SKILLEDS</a></li>
+                <li class="header_li_mobile"><a href="#">PROJECTS</a></li>
+                <li class="header_li_mobile"><a href="#">CONTACT</a></li>
+            </ul>
+        </details>
 
     </header>
     <div class="menu">
@@ -122,7 +136,7 @@
                     exceed client expectations and deliver top-notch results.</p>
                 <div button class="card_button_div">
                     <a href="#">
-                        <button class="card_button card_button_two">HOME PAGE</button>
+                        <button class="card_button card_button_two">Skilled</button>
                     </a>
                 </div>
             </div>
@@ -190,40 +204,69 @@
 
     <div class="home_getstard_card">
         <div class="home_getstard_card_menu">
-            <i class="apple_laptop_image"> <ion-icon name="logo-html5"></ion-icon></i>
+            <i class="apple_laptop_image">
+                <ion-icon name="logo-html5"></ion-icon>
+            </i>
             <h4>HTML</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem dolores incidunt excepturi accusantium
-                enim
-                fugiat eos laborum minus dolorem ab.</p>
-            <div class="get_stard"><ion-icon name="arrow-redo-circle-outline"></ion-icon> GET STARTED</div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem dolores incidunt excepturi accusantium
+                enim fugiat eos laborum minus dolorem ab.
+            </p>
+            <div class="get_stard">
+                <ion-icon name="arrow-redo-circle-outline"></ion-icon> GET STARTED
+            </div>
         </div>
-        <div class="home_getstard_card">
-            <div class="home_getstard_card_menu">
-                <!-- <i><ion-icon name="beer-outline"></ion-icon></i> -->
-                <i class="apple_laptop_image css_color"><ion-icon name="logo-css3"></ion-icon></i>
-                <h4>CSS</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem dolores incidunt excepturi
-                    accusantium
-                    enim
-                    fugiat eos laborum minus dolorem ab.</p>
-                <div class="get_stard get_stard_color"><ion-icon name="arrow-redo-circle-outline"></ion-icon> GET
-                    STARTED</div>
+        <div class="home_getstard_card_menu">
+            <i class="apple_laptop_image css_color">
+                <ion-icon name="logo-css3"></ion-icon>
+            </i>
+            <h4>CSS</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem dolores incidunt excepturi accusantium
+                enim fugiat eos laborum minus dolorem ab.
+            </p>
+            <div class="get_stard">
+                <ion-icon name="arrow-redo-circle-outline"></ion-icon> GET STARTED
+            </div>
+        </div>
+        <div class="home_getstard_card_menu">
+            <i class="apple_laptop_image js_color"><ion-icon name="logo-nodejs"></ion-icon></i>
+            <h4>JAJVSCRIPT</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem dolores incidunt excepturi accusantium
+                enim fugiat eos laborum minus dolorem ab.
+            </p>
+            <div class="get_stard">
+                <ion-icon name="arrow-redo-circle-outline"></ion-icon> GET STARTED
             </div>
         </div>
 
-        <div class="home_getstard_card">
-            <div class="home_getstard_card_menu">
-                <!-- <i><ion-icon name="storefront-outline"></ion-icon></i> -->
-                <i class="apple_laptop_image js_color"><ion-icon name="logo-nodejs"></ion-icon></i>
-                <h4>JAVASCRIPT</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem dolores incidunt excepturi
-                    accusantium
-                    enim
-                    fugiat eos laborum minus dolorem ab.</p>
-                <div class="get_stard"><ion-icon name="arrow-redo-circle-outline"></ion-icon> GET STARTED</div>
-            </div>
-        </div>
     </div>
+
+    <!-- <form action="submit">
+        <div><label for="name">Your Name</label>
+            <input type="text">
+        </div>
+        <div><label for="name">MESSAGE</label>
+            <input type="message">
+        </div>
+    </form> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="wave-border top"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height:100%;width:100%">
             <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
@@ -268,6 +311,26 @@
 
     <script>
         $('.websites_cards').slick({
+            // dots: true,
+            arrows: false,
+
+            slidesToShow: 3,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        slidesToShow: 1.2,
+                        slidesToScroll: 1
+                    }
+                }]
+
+            // autoplaySpeed: 500,
+            // autoplay: true,
+
+        });
+
+        $('.home_getstard_card').slick({
             // dots: true,
             arrows: false,
 

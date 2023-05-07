@@ -7,6 +7,14 @@
 
 }
 
+.mobile_call_logo {
+    display: none;
+}
+
+details {
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -60,10 +68,10 @@ header {
 }
 
 .header_call_icon {
-    padding: 4px 32px 0px 32px;
+    padding: 10px 10px 5px 10px;
     font-size: 20px;
     border: 2px solid rgb(110, 185, 252);
-    border-radius: 10px;
+    border-radius: 50%;
     transition: all .4s;
     background-color: rgb(110, 185, 252);
     color: #fff;
@@ -524,7 +532,124 @@ footer ul {
 .mygmail h4 {
     font-size: 30px;
     color: #3d3d3d;
+    font-family: 'Bruno Ace SC', cursive;
 }
+
+
+@media screen and (max-width: 820px) {
+    .submenu_i {
+        line-height: 40px;
+        word-spacing: 20px;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .menu_image {
+        width: auto;
+        height: 400px;
+    }
+
+    .menu_image_div {
+        margin: 0px;
+        padding: 5px 0px;
+        height: auto;
+    }
+
+    .submenu {
+        padding: 20px 10px 20px 20px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .menu_button_div {
+        margin: 40px 0px 20px 20px;
+    }
+
+    .scroler {
+        margin-top: 50px;
+    }
+
+    .card_dady {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .card {
+        width: 75%;
+        padding: 20px 10px;
+        margin: 20px auto;
+    }
+
+    .card_image_icons {
+        font-size: 120px;
+    }
+
+    .card_pera {
+        margin-left: 20px;
+    }
+
+    .card_hading {
+        font-size: 20px;
+        word-spacing: 4px;
+        margin-bottom: 10px;
+    }
+
+    .card_button_div {
+        margin-left: 100px;
+        padding: 5;
+        margin-top: 0px;
+    }
+
+    .card_pera p {
+        font-size: 15px;
+        line-height: 18px;
+        word-spacing: 5px;
+    }
+
+    .card_button_two {
+        margin-top: 20px;
+    }
+
+    .long_card_image {
+        padding: 5px 10px;
+        height: 100px;
+        width: 90%;
+        margin: 30px auto 50px auto;
+    }
+
+    .long_card_image h2 {
+        font-size: 15px;
+        word-spacing: 2px;
+        padding: 0px 0px 5px 5px;
+    }
+
+    .long_card_image img {
+        height: 120px;
+        border: 5px solid #6de06d;
+        margin: 0px 20px;
+    }
+
+    .long_card_image_front {
+        padding: 0px 5px 5px 0px;
+    }
+
+    .long_card_image_front h4 {
+        font-size: 12px;
+        word-spacing: 2px;
+        line-height: 14px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
 
 @media screen and (max-width: 450px) {
     .header_li {
@@ -534,14 +659,39 @@ footer ul {
     header {
         padding: 5px 20px;
         height: 60px;
+        position: relative;
+    }
+
+    details {
+        position: absolute;
+        top: 20px;
+        right: 5px;
+        display: block;
+        color: #000;
+        padding: 5px;
+    }
+
+    .header_ul_mobile {
+        position: absolute;
+        right: -5px;
+        margin-top: 17px;
+        list-style: none;
+        text-align: center;
+        color: #000;
+        background-color: #fff;
+        padding: 10px 20px;
+        border-radius: 0px 0px 0px 10px;
+        line-height: 40px;
+        box-shadow: -2px 2px 5px 0px gainsboro;
+    }
+
+    .header_li_mobile {
+        border-bottom: 1px solid gainsboro;
     }
 
     .header_call_icon {
-        display: block;
-        padding: 2px 16px 0px 16px;
-        font-size: 12px;
+        display: none;
     }
-
 
     .header_logo_image_div img {
         height: 30px;
@@ -551,7 +701,7 @@ footer ul {
     .menu {
         display: flex;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 30px;
         height: 680px;
         flex-direction: column;
     }
@@ -581,12 +731,15 @@ footer ul {
     }
 
     .menu_image_div {
-        margin-top: -20px;
+        margin-top: -100px;
+        padding: 0px 0px;
+        height: auto;
+
     }
 
     .menu_image {
         width: auto;
-        height: 350px;
+        height: 290px;
     }
 
     .more_about {
@@ -600,6 +753,14 @@ footer ul {
         margin-top: -50px 0px;
     }
 
+    .menu_button {
+        font-size: 15px;
+        padding: 5px 20px;
+        border: 1px solid #0285ff;
+        border-radius: 20px;
+        color: #0285ff;
+    }
+
     .long_card_image {
         padding: 5px 10px;
         height: 80px;
@@ -609,23 +770,24 @@ footer ul {
 
 
     .long_card_image h2 {
-        font-size: 15px;
+        font-size: 10px;
         word-spacing: 0px;
-        border-bottom: 2px solid #ffde59;
-        border-left: 2px solid #ffde59;
+        border-bottom: 2px solid #6de06d;
+        border-left: 2px solid #6de06d;
+        padding: 0px 0px 5px 5px;
     }
 
     .long_card_image img {
         height: 100px;
         width: auto;
-        border: 5px solid #fff;
+        border: 4px solid #6de06d;
         margin: 0px 20px;
     }
 
     .long_card_image_front {
-        border-bottom: 2px solid #ffde59;
-        border-right: 2px solid #ffde59;
-        padding: 10px;
+        border-bottom: 2px solid #6de06d;
+        border-right: 2px solid #6de06d;
+        padding: 0px 5px 5px 0px;
     }
 
     .long_card_image_front h4 {
@@ -636,9 +798,9 @@ footer ul {
     }
 
     .long_card_image_front p {
-        font-size: 7px;
+        font-size: 5px;
         word-spacing: 0px;
-        line-height: 10px;
+        line-height: 8px;
     }
 
     .card_dady {
@@ -648,9 +810,9 @@ footer ul {
 
     .card {
         height: 200px;
-        width: 340px;
+        width: 96%;
         margin: 0px auto 20px auto;
-        padding: 10px;
+        padding: 20px 10px;
     }
 
     .card_image_icons {
@@ -664,9 +826,9 @@ footer ul {
     }
 
     .card_hading {
-        font-size: 20px;
+        font-size: 17px;
         word-spacing: 3px;
-        margin-bottom: 8px;
+        margin-bottom: 0px;
     }
 
     .card_pera p {
@@ -677,11 +839,18 @@ footer ul {
         margin: 10px 0px 0px 0px;
     }
 
+    .card_button_div {
+        margin-left: 10px;
+        padding: 5;
+        margin-top: 20px;
+    }
+
     .card_button {
-        font-size: 15px;
+        font-size: 12px;
         padding: 5px 20px;
         background-color: transparent;
         border: 1px solid rgb(1, 134, 250);
+        border-radius: 20px;
     }
 
     .card_button_two {
@@ -721,22 +890,89 @@ footer ul {
         margin-left: 4rem;
     }
 
-    .home_getstard_card {
-        overflow: auto;
-    }
+
 
     .home_getstard_card_menu {
         height: 300px;
-        padding: 20px;
+        padding: 10px;
         width: 250px;
         margin: 10px;
         border: 1px solid gainsboro;
     }
 
+    .apple_laptop_image {
+        font-size: 70px;
+        padding: 0px;
+        margin: 10pa auto !important;
+    }
+
+    .home_getstard_card_menu h4 {
+        color: #3002ff;
+        font-size: 15px;
+        margin: -20px auto 10px auto;
+    }
+
+    .home_getstard_card_menu p {
+        color: #595959;
+        line-height: 15px;
+        word-spacing: 2px;
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding: 0px 20px;
+    }
+
+    /* .home_getstard_card {
+        overflow: auto;
+    } */
+
+    .get_stard {
+        color: #cab5fc;
+        font-size: 12px;
+        margin: 10px 0px;
+        padding: 0px;
+    }
+
+    footer ul {
+        margin-left: 5px;
+    }
 
 
+    .footer_icons {
+        margin: 2px;
+        color: #0285ff;
 
+    }
 
+    .mygmail {
+        text-align: center;
+        margin-right: 20px;
+    }
 
+    .mygmail h4 {
+        font-size: 20px;
+        font-family: 'Bruno Ace SC', cursive;
+        color: #0285ff;
+    }
+
+    .mygmail a {
+        font-size: 8px;
+        color: #000;
+    }
+
+    .wave-border {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    .slick-slide {
+        display: none;
+        float: left;
+        height: 100%;
+        min-height: 300px;
+    }
 
 }
