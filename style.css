@@ -752,9 +752,9 @@ footer ul {
         position: absolute;
         background-color: #0285ff;
         top: 450px;
-        width: 42px;
+        width: 45px;
         left: 97%;
-        padding: 10px 8px 2px 8px;
+        padding: 12px 10px 4px 10px;
         border: 2px solid #0285ff;
         position: sticky;
         z-index: 999;
