@@ -7,6 +7,10 @@
 
 }
 
+.mobile_call {
+    display: none;
+}
+
 .mobile_call_logo {
     display: none;
 }
@@ -21,6 +25,7 @@ a {
 
 body {
     background-color: #fff;
+    position: relative;
 }
 
 header {
@@ -67,18 +72,27 @@ header {
     color: #ffcd06;
 }
 
-.header_call_icon {
-    padding: 10px 10px 5px 10px;
+.header_li_contact {
+    padding: 6px 20px;
     font-size: 20px;
-    border: 2px solid rgb(110, 185, 252);
-    border-radius: 50%;
+    border-radius: 15px;
     transition: all .4s;
     background-color: rgb(110, 185, 252);
+
+}
+
+.header_li_contact a {
+    margin-right: 0px;
     color: #fff;
 
 }
 
-.header_call_icon:hover {
+.header_li_contact:hover a {
+    color: #fff;
+}
+
+
+.header_li_contact:hover {
     background-color: rgb(1, 134, 250);
     color: #fff;
     cursor: pointer;
@@ -688,8 +702,14 @@ footer ul {
         top: 20px;
         right: 5px;
         display: block;
-        color: #000;
+        color: #ffffff;
         padding: 5px;
+    }
+
+    .three_line {
+        color: #2c2c2c;
+        margin-top: -35px;
+        font-size: 23px;
     }
 
     .header_ul_mobile {
@@ -698,25 +718,59 @@ footer ul {
         margin-top: 10px;
         list-style: none;
         text-align: center;
-        color: #000;
         background-color: #fff;
         padding: 10px 20px;
         border-radius: 0px 0px 0px 10px;
         line-height: 40px;
         box-shadow: -2px 2px 5px 0px gainsboro;
+
     }
 
     .header_li_mobile {
         border-bottom: 1px solid gainsboro;
+
     }
 
-    .header_call_icon {
-        display: none;
+    .header_li_mobile a {
+        color: #5c5c5c;
+        margin: 0px 25px 20px 25px;
+        transition: all .2s;
     }
+
+    .header_li_mobile:hover a {
+        color: #302f2f;
+    }
+
 
     .header_logo_image_div img {
         height: 30px;
         width: auto;
+    }
+
+    .mobile_call {
+        display: block;
+        position: absolute;
+        background-color: #0285ff;
+        top: 450px;
+        width: 42px;
+        left: 97%;
+        padding: 10px 8px 2px 8px;
+        border: 2px solid #0285ff;
+        position: sticky;
+        z-index: 999;
+        border-radius: 50%;
+        transition: all.4s;
+    }
+
+    .mobile_call:hover {
+        transform: scale(1.2);
+
+    }
+
+
+    .mobile_call a {
+        color: #fff;
+
     }
 
     .menu {
@@ -801,7 +855,7 @@ footer ul {
     }
 
     .long_card_image img {
-        height: 90px;
+        height: 80px;
         width: auto;
         border: 4px solid #fff;
         margin: 0px 20px;
