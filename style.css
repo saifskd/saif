@@ -754,6 +754,7 @@ footer ul {
         top: 470px;
         width: 45px;
         left: 87%;
+        margin-right: 10px;
         padding: 12px 10px 4px 10px;
         border: 2px solid #0285ff;
         position: sticky;
